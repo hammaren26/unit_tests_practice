@@ -2,10 +2,10 @@ function reverseString(str) {
    str = str
       .split('')
       .sort(() => -1)
-      .join('')
+      .join('');
 
-   return str
+   return str;
 }
 
 
-module.exports = reverseString
+module.exports = reverseString;
